@@ -90,7 +90,7 @@ body {
 
 @media screen and (max-width: 600px) {
   #top-section {
-    background-position: initial;
+    background-position: center;
     background-attachment: initial;
   }
   .topnav {
