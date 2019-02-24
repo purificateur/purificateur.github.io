@@ -89,10 +89,21 @@ body {
 
 
 @media screen and (max-width: 600px) {
+  #logo-container {
+  background-color: rgba(255,255,255,0.9);
+  display: flex;
+  margin-top: 30px;
+  margin: auto;
+  height: 250px;
+  width: 500px;
+  border: 6px dashed #e9a825;
+  border-radius: 20px;
+}
   #top-section {
     background-position: center;
     background-attachment: initial;
     padding: 10px;
+    height: 400px;
   }
   .topnav {
     display: block;
