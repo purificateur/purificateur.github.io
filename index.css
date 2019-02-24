@@ -92,6 +92,7 @@ body {
   #top-section {
     background-position: center;
     background-attachment: initial;
+    padding: 10px;
   }
   .topnav {
     display: block;
