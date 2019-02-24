@@ -91,8 +91,9 @@ body {
 @media screen and (max-width: 600px) {
   #logo-container {
   display: flex;
+  align-self: left;
   margin: 30px auto;
-  height: 250px;
+  height: 150px;
   width: 400px;
   border: 6px dashed #e9a825;
   border-radius: 20px;
