@@ -123,7 +123,6 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  line-height: 20px;
   font-family: 'Hind Siliguri', sans-serif;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
