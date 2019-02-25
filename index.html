@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> tWinkeltje voor Raamdecor </title>
+  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!--  Styles  -->
+</head>
+<body>
+  
+  <header>
+    <nav id="nav-container" class="topnav">
+      
+      <div id="button-container">
+        <a href="#home">Home</a>
+        <a href="#product-section">Producten</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="navResponse()">
+        <i class="fa fa-bars"></i>
+      </div>
+        
+      <script>
+          function navResponse() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+      </script>
+    </nav>
+    
+    </header>
+    
+    <section id="top-section">
+      <div id="logo-container">
+        <img id="logo" src="/logo-t-winkeltje.png" alt="twinkeltje-logo" height="150" width="350" 
+      </div>
+     
+    </section>
+      
+    <section id="product-section">
+    </section> 
+  
+  
+</body>
+</html>
