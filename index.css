@@ -163,6 +163,9 @@ body {
     float: right;
     display: inline;
   }
+  #product-section {
+  padding: 50px 5vw 100px 5vw;
+}
 }
 
 @media screen and (max-width: 600px) {
