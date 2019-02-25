@@ -166,6 +166,10 @@ body {
   #product-section {
   padding: 50px 5vw 100px 5vw;
 }
+  .category-container {
+  width: 20vw;
+  height: 20vw;
+}
 }
 
 @media screen and (max-width: 600px) {
