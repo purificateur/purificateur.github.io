@@ -163,6 +163,10 @@ body {
     float: right;
     display: inline;
   }
+  #top-section {
+    background-image: url("https://www.zonenschermwebshop.nl/ENGINE/FILES/SUNEASY/WEBSITE/PUBLIC/UPLOAD/IMAGE/webshop/producten/binnenzonwering/jaloezieen/35mm/35_groot.jpg");
+  }
+  
   #product-section {
   padding: 50px 5vw 100px 5vw;
 }
