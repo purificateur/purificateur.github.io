@@ -193,8 +193,12 @@ body {
             margin-bottom: 50px;
           }
 
-      .showRoom {display: none}
-      img {vertical-align: middle;}
+      .showRoom {
+        display: none
+      }
+      #showroom-section img {
+        vertical-align: middle;
+      }
 
       .slideshow-container {
         max-width: 1000px;
