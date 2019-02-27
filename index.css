@@ -278,11 +278,11 @@ body {
     }
 
   #copyright {
-   display: block;
    font-family: 'Hind Siliguri', sans-serif;
    width: 100%;
    font-size: 20px;
    text-align: center; 
+   word-wrap: break-word;
   }
 
 
