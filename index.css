@@ -257,6 +257,7 @@ body {
 #footer {
   height: 200px;
   background-color: #e9a825;
+  padding: 20px;
 }
     #social-container {
       text-align: center;
@@ -281,7 +282,6 @@ body {
    width: 100%;
    font-size: 20px;
    text-align: center;
-   margin: 20px;
   }
 
 
