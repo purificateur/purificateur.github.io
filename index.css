@@ -364,5 +364,5 @@ body {
 }
 
 @media only screen and (max-width: 300px) {
-  .prev, .next,.slide-text {font-size: 11px}
+  .slide-text {font-size: 11px}
 }
