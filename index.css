@@ -314,6 +314,7 @@ body {
   #top-section {
     background-image: url("https://www.zonenschermwebshop.nl/ENGINE/FILES/SUNEASY/WEBSITE/PUBLIC/UPLOAD/IMAGE/webshop/producten/binnenzonwering/jaloezieen/35mm/35_groot.jpg");
     background-size: cover;
+    background-attachment: scroll;
   }
   #product-section {
   background-color: #e9a825;
@@ -339,6 +340,10 @@ body {
   }
   #about-section {
     padding: 20px;
+    background-attachment: scroll;
+}
+  #footer .fa {
+    font-size: 30px;
   }
 }
 
