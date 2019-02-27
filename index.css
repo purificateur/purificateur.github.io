@@ -282,9 +282,8 @@ body {
    font-family: 'Hind Siliguri', sans-serif;
    width: 100%;
    font-size: 20px;
-   height: auto;
    text-align: center; 
-   padding: 10px;
+   word-wrap: wrap;
   }
 
 
