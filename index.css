@@ -42,7 +42,11 @@ body {
     .topnav .icon {
       display: none;
     }
-
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
 
 #top-section {
   background-image: url("https://www.zonweringvoordelig.nl/write/afbeeldingen1/producten/luxaflex-houten-jaloezieen/Houten%20Jaloezie%201___Source.jpg");
