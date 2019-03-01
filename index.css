@@ -71,7 +71,7 @@ body {
     }
 
 #top-section {
-  background-image: url("/main-bg.jpg");
+  background-image: url("main-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -176,7 +176,7 @@ body {
 
 
 #about-section {
-  background-image: url("/shwrm-5.jpg");
+  background-image: url("shwrm-5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
