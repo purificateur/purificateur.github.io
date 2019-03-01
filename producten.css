@@ -150,8 +150,8 @@ color: #e9a825;
 /* Position the image container (needed to position the left and right arrows) */
 .main-container {
   position: relative;
-  height: 30vw;
-  width: 30vw;
+  height: 25vw;
+  width: 25vw;
   margin: 30px 30px 30px 20vw;
 }
 
