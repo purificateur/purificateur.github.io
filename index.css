@@ -354,7 +354,7 @@ body {
   }
   
   #top-section {
-    background-image: url("shwrm-7.jpg");
+    /* background-image: url("shwrm-7.jpg"); */
     background-size: cover;
     background-attachment: scroll;
   }
