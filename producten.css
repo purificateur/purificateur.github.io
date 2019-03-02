@@ -271,6 +271,7 @@ color: #e9a825;
   display: block;
   font-size: 16px;
   margin: auto;
+  margin-top: 0;
   margin-bottom: 20px;
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
