@@ -282,7 +282,7 @@ color: #e9a825;
   background-color: #e9a825;
   color: black;
 }
-.price-button:active {
+.price-button:focus {
   outline: none;
 }
 
