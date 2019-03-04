@@ -257,7 +257,84 @@
             </div>
           </section>
       
-        <button class="price-button">Prijs Aanvragen</button>
+        <button class="price-button" href="javascript:void(0)" onclick="callForm()">Offerte</button>
+          
+          <script>
+            function callForm() {
+              var form = document.getElementById("form-container");
+              form.style.display = "block";
+            }
+          </script>
+      
+      
+          <section id="prijs-form-section">
+            
+            <div id="form-container">
+              <h2 id="form-header">Offerte Form</h2>
+              <form>
+                
+                <div style="display:flex;">
+                  <div style="width:50%;" class="input-text-left-container">
+                    <label for="fname">Voornaam</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Uw Voornaam.." required>
+                  </div>
+                
+                  <div style="width:50%;">
+                    <label for="lname">Achternaam</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Uw Achternaam.." required>
+                  </div>
+                 </div>
+                 
+                <div style="display:flex;">
+                  <div style="width:50%;" class="input-text-left-container">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" placeholder="E-Mail.." required>
+                  </div>
+                
+                  <div style="width:50%;">
+                    <label for="telephone">Telefoon</label>
+                    <input type="text" id="telephone" name="telefoon" placeholder="Telefoon.." required>
+                  </div>
+                </div>
+                
+                <div style="display:flex;">
+                  <div style="width:50%;" class="input-text-left-container">
+                    <label for="straat">Straat</label>
+                    <input type="text" id="straat" name="straat" placeholder="Straat.." required>
+                  </div>
+                
+                  <div style="width:50%;">
+                    <label for="woonplaats">Woonplaats</label>
+                    <input type="text" id="woonplaats" name="woonplaats" placeholder="Woonplaats.." required>
+                  </div>
+                </div>
+                
+                <div style="display:flex;">
+                  <div style="width:50%;" class="input-text-left-container">
+                    <label for="postcode">Postcode</label>
+                    <input type="text" id="postcode" name="postcode" placeholder="Postcode.." required>
+                  </div>
+                
+                  <div style="width:50%;">
+                    <label for="product">Product</label>
+                      <input type="text" id="product" name="product" value="Aluminium Jaloezieën" placeholder="Aluminium Jaloezieën" disabled>
+                  </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+
+                <label for="subject">Beschrijving</label>
+                <textarea id="subject" name="subject" placeholder="Beschrijving.." style="height:200px"></textarea>
+
+                <input type="submit" id="submit-btn" value="Verzend">
+              </form>
+            </div>
+          </section>
       
     </main>
     
