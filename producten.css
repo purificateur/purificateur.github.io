@@ -285,6 +285,52 @@ color: #e9a825;
 .price-button:focus {
   outline: none;
 }
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: black;
+  display: block;
+  color: #e9a825;
+  padding: 12px 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  margin: auto;
+}
+
+input[type=submit]:hover {
+  background-color: #e9a825;
+  color: black;
+}
+
+#form-container {
+  font-family: 'Hind Siliguri', sans-serif; 
+  background-color: #e9a825;
+  display: none;
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+#form-container h2{
+  text-align: center;
+}
+.input-text-left-container {
+  margin-right: 10px;
+}
 
 
 
