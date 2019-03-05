@@ -1,7 +1,7 @@
 <?php 
 $errors = '';
-$myemail = 'test@purificateur.github.io';//<-----Put Your email address here.
-$toMail = info@twinkeltjeraamdecor.nl ;
+$myemail = 'info@purificateur.github.io';//<-----Put Your email address here.
+$toMail = 'info@twinkeltjeraamdecor.nl' ;
 if(empty($_POST['fname'])  || 
    empty($_POST['lname']) ||
    empty($_POST['email']) ||
